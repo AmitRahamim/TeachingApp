@@ -8,11 +8,7 @@ This project is an online coding web application designed to support real-time c
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Installation and Setup](#installation-and-setup)
-- [Running the Application](#running-the-application)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Explanation of Key Files](#explanation-of-key-files)
-- [Future Enhancements](#future-enhancements)
+
 
 ## Features
 
