@@ -1,4 +1,4 @@
-/* src/App.css */
+
 body {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   background-color: #f5f7fa;
@@ -21,18 +21,17 @@ body {
   text-align: center;
   font-display:inherit;
 }
-/* Code block list: remove fixed positioning and center vertically */
 .codeblock-list {
   list-style: none;
   padding: 0;
-  margin: auto;       /* Auto margins center the element */
-  width: fit-content;      /* Shrink-wrap the list to its content */
+  margin: auto;       
+  width: fit-content;     
   display: flex;
   flex-direction: column;
 }
 
 
-/* Code block card styling remains the same */
+
 .codeblock-card {
   background: #fff;
   border-radius: 8px;
@@ -56,12 +55,12 @@ body {
 .codeblock-card a:hover {
   color: #4a90e2;
 }
-/* Center the smiley and make it large */
+
 .smiley {
-  font-size: 8em;         /* Adjust size as needed */
-  text-align: center;     /* Center the smiley horizontally */
-  width: 100%;            /* Ensure it takes full container width */
-  margin-top: 50px;       /* Space above the smiley */
+  font-size: 8em;         
+  text-align: center;     
+  width: 100%;            
+  margin-top: 50px;      
 }
 /* Chat container styling */
 .chat-container {
