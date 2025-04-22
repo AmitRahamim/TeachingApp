@@ -34,7 +34,7 @@ const CodeBlock = () => {
       .catch(err => console.error(err));
   }, [id]);
 
-  // Set up socket connection and event listeners
+  
   useEffect(() => {
     socketRef.current = io('http://localhost:5001');
     socketRef.current.emit('joinRoom', { roomId: id });
