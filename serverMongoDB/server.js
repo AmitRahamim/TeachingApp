@@ -53,7 +53,6 @@ app.get('/api/codeblocks/:id', async (req, res) => {
   }
 });
 
-// --- Socket.IO Integration --- //
 
 io.on('connection', (socket) => {
   console.log('New client connected:', socket.id);
@@ -61,7 +60,7 @@ io.on('connection', (socket) => {
   socket.on('joinRoom', ({ roomId }) => {
     socket.join(roomId);
 
-    // Initialize room if not exists
+    
     if (!rooms[roomId]) {
       rooms[roomId] = { mentor: null, students: {}, currentCode: null };
     }
